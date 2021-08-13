@@ -1,6 +1,6 @@
 <template>
     <div id="home">
-        <div class="home-navbar"><NavBar bgcolor="red"><div slot="center">购物街</div></NavBar></div>
+        <div class="home-navbar"><NavBar><div slot="center">购物街</div></NavBar></div>
     </div>
 </template>
 <script>
@@ -18,5 +18,4 @@ export default {
         background-color: var(--color-tint);
         color: var( --color-background);
     }
-    
 </style>
